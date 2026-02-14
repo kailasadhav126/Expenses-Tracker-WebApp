@@ -11,7 +11,7 @@ RUN mvn clean install -DskipTests=true
 # -------------------------------
 # Stage 2 - Runtime
 # -------------------------------
-FROM eclipse-temurin:17-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine 
 
 WORKDIR /app
 
